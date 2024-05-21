@@ -29,7 +29,7 @@ h3 {
 
 /* Header */
 header {
-  background-color: rgb(79, 24, 230);
+  background-color: royalblue;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -59,10 +59,17 @@ header a {
   border-bottom: 1px solid #3a3a3a;
 }
 
+logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
-  background-color: rgb(79, 24, 230);
+  background-color: royalblue;
   width: 100%;
   left: 0;
   padding: 0 1rem;
